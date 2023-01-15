@@ -89,3 +89,130 @@ nav li a {
 /* header section styles end */
 
 /* features section styles */
+
+.features {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.features-description {
+    width: 50%;
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 30px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+#title-color-1 {
+    color: #727272;
+}
+
+#title-color-2 {
+    color: #131313;
+}
+
+#title-color-3 {
+    color: #FF900E;
+}
+
+.features-details {
+    margin-bottom: 30px;
+    color: #727272;
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 40px 10px 40px 150px;
+}
+
+/* features section styles end */
+
+/* features category section styles */
+.features-category {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 45px;
+
+}
+
+.category-description {
+    width: 50%;
+    margin: 45px 5px 45px 110px;
+}
+
+.category-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+    padding-left: 8px;
+    border-left: 4px solid #FF900E;
+    color: #131313;
+}
+
+.category-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-left: 10px;
+}
+
+.list-number {
+    width: 80%;
+    margin: 30px 5px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 25px rgb(220, 220, 229);
+}
+
+.list-number h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.list-number p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.architect {
+    width: 50%;
+}
+
+.features-category img {
+    width: 80%;
+}
+
+.secondary-btn {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 40px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600px;
+    font-size: 22px;
+    margin: -50px 0px 0px -50px;
+}
+
+/* features category section end */
