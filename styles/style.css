@@ -397,3 +397,173 @@ nav li a {
 }
 
 /* footer section end */
+/* media queries for mobile devices */
+@media only screen and (max-width: 576px) {
+    nav {
+        height: 180px;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    /* ul */
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        display: flex;
+        flex-direction: column;
+        margin-right: 170px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-top: 15px;
+        padding-top: 15px;
+        text-align: left;
+        font-size: 25px;
+        margin-right: 100px;
+    }
+
+    .header-container {
+        width: 359px;
+        height: 550px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+
+    .header-description {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: block;
+        width: 300px;
+        height: 400px;
+    }
+
+    .header-title {
+        font-weight: 600;
+        font-size: 35px;
+        margin-top: 0px;
+        padding: 0;
+    }
+
+    .header-details {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .header-container img {
+        width: 80%;
+        padding-top: 5px;
+        margin-bottom: 0;
+        padding: 15px 0 0 0;
+    }
+
+    .primary-btn {
+        padding: 10px;
+        margin: 7px 0 0 0;
+        font-size: small;
+    }
+
+    /* features section */
+
+    .features,
+    .features-category {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 359px;
+        height: 1850px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .features-category {
+        height: 2200px;
+    }
+
+    .features img,
+    .architect {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .architect {
+        margin-bottom: 30px;
+    }
+
+
+    .features-title {
+        font-weight: 600;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .features-details {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .features-img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-description {
+        margin: 10px 0 0 0;
+        padding: 0;
+        text-align: left;
+        justify-items: left;
+    }
+
+    .success,
+    .sponsors,
+    .projects,
+    .footer {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+        width: 360px;
+        height: auto;
+    }
+
+    .achievments,
+    .sponsors-companies {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+        width: 360px;
+        height: auto;
+    }
+
+
+
+}
