@@ -216,3 +216,129 @@ nav li a {
 }
 
 /* features category section end */
+
+/* success section styles */
+.success {
+    margin: 45px 80px;
+    padding: 10px;
+}
+
+.success-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 35px;
+}
+
+.success-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-left: 36px;
+}
+
+.achievments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+    margin: 45px 20px;
+
+}
+
+
+.box {
+    padding: 35px 25px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+
+}
+
+/* animation */
+@keyframes architects {
+    0% {
+        background-color: #FF900E;
+    }
+
+    25% {
+        background-color: gray;
+    }
+
+    50% {
+        background-color: skyblue;
+    }
+
+    100% {
+        background-color: rgb(225, 190, 62);
+    }
+}
+
+/* animation */
+.box:hover {
+    width: 130px;
+    height: 130px;
+    background-color: #FFFFFF;
+    animation-name: architects;
+    animation-duration: 5s;
+    transform: skew(5deg);
+    transition-delay: 1s;
+    border-radius: 10%;
+}
+
+.box h4 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #424242;
+}
+
+.box p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #727272;
+
+}
+
+/* success section styles end */
+/* sponsors section */
+
+.sponsors-heading {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 10px;
+    padding: 10px;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin: 15px 0;
+}
+
+.sponsors-detail {
+    font-weight: 400px;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponsors-companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 45px;
+    margin-bottom: 45px;
+
+}
+
+.sponsors-companies img {
+    -webkit-filter: grayscale(100%);
+    /*--- Safari 6.0 - 9.0------ */
+    filter: grayscale(100%);
+}
+
+/* sponsors section end */
+
+/* new projects section start */
